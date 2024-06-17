@@ -1,0 +1,22 @@
+Create table AmazonBooks(
+    title TEXT,
+    publisher VARCHAR(150),
+	books_sold INT,
+    price INT,
+    language VARCHAR(15),
+    top_country VARCHAR(255),
+    published_year INT,
+    published_date VARCHAR(50),
+    ratings_count INT,
+    id VARCHAR(25),
+    user_id VARCHAR(25),
+    profile_name VARCHAR(50),
+    review_helpfulness VARCHAR(10),
+    review_score INT,
+    review_time VARCHAR(20),
+    review_summary VARCHAR(255),
+    user_email VARCHAR(50),
+    author VARCHAR(50),
+    author_email VARCHAR(100),
+    category VARCHAR(255)
+);
